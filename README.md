@@ -23,7 +23,7 @@ While the original paper and repository utilized the ZINC12 and PubChem datasets
 
 ## Quick Start
 
-The `main.ipynb` notebook implements the model version from the paper that's reported to have the best performance. We've retained only the most critical elements to ensure the code structure is easily comprehensible. The implementation is based both on the content of the original paper and a comparison with the original codebase. For instance, while the paper mentions predicting $9$ molecular descriptors using the classifier, we noticed the original codebase only uses $7$; our implementation follows the latter. At the end of the code, we've also saved models, such as the *Encoder + Classifier* and *Seq2Seq*.
+The `main.ipynb` notebook implements the model version from the paper that's reported to have the best performance. We've retained only the most critical elements to ensure the code structure is easily comprehensible. The implementation is based both on the content of the original paper and a comparison with the original codebase. For instance, while the paper mentions predicting $9$ molecular descriptors using the classifier, we noticed the original codebase only uses $7$; our implementation follows the latter. Additionally, this implementation does not yet incorporate the approach from the paper where tokens of different lengths are placed in separate buckets. At the end of the code, we've also saved models, such as the *Encoder + Classifier* and *Seq2Seq*.
 
 ## Todo
 
